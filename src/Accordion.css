@@ -1,0 +1,46 @@
+/*
+=======================
+Google Fonts
+======================= 
+*/
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+.container {
+    margin-top: 20px;
+    position: relative;
+
+}
+.arrow-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    display: none;
+    color: hsl(14,88%, 65%);
+}
+.arrow-down {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: hsl(14,88%, 65%);
+}
+.show {
+    display: initial;
+}
+.hide {
+    display: none;
+}
+.content {
+    margin-top: 20px;
+    display: none;
+}
+.active {
+    display: block;
+}
+hr {
+    margin-top: 20px;
+    border-top: hsl(240, 5%, 91%);
+}
+.bold {
+    font-weight: 700;
+}
